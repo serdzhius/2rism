@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231014105904">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Начало: Данный блок удалять нельзя -->
+		<div class="maketforfigma">
+			<a href="https://t.me/s/FigmaToHTML" target="_blank">
+				<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png"></picture>
+			</a>
+			<div>
+				<p>
+					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+				</p>
+				<p>
+					При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь
+					получил оплату за верстку этого макета.
+				</p>
+			</div>
+		</div>
+		<!-- Конец -->
+		<div class="main">
+			<header class="header" data-fullscreen>
+				<div class="header__container">
+					<div class="header__top">
+						<a class="header__logo" href="#"><img src="img/header/logo.svg" alt="Logo"></a>
+						<div class="header__menu menu">
+							<button class="menu__icon icon-menu" type="button"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list text">
+									<li class="menu__item">
+										<a class="menu__link" href="#">home</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">hotels</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">restaurants</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">tours</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">destinations</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">activities</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#">contact</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__user user-header">
+							<div class="user-header__user-text text">
+								<div class="user-header__user-holla">Holla,</div>
+								<div class="user-header__user-name">Ales Nesetril</div>
+							</div>
+							<div class="user-header__user-img">
+								<picture><source srcset="img/header/user.webp" type="image/webp"><img src="img/header/user.jpg" alt="user"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="header__box box-header">
+						<h1 class="box-header__title">Discover the most engaging places</h1>
+						<button class="box-header__btn" type="button">Discover on 3D Globe</button>
+					</div>
+					<div class="header__choice choice">
+						<div class="choice__item">
+							<div class="choice__item-icon">
+								<img src="img/header/icon/marker.svg" alt="Icon">
+							</div>
+							<div class="choice__item-inner">
+								<h3 class="choice__label">Location</h3>
+								<select class="choice__form" name="form[]">
+									<option value="1" selected>Explore nearby destinations</option>
+									<option value="2">California, USA</option>
+									<option value="3">Arizona, USA</option>
+									<option value="4">Florida, USA</option>
+									<option value="5">Arizona, USA</option>
+									<option value="6">Michigan, USA</option>
+									<option value="6">Spain</option>
+								</select>
+							</div>
+						</div>
+						<div class="choice__item">
+							<div class="choice__item-icon">
+								<img src="img/header/icon/activity.svg" alt="Icon">
+							</div>
+							<div class="choice__item-inner">
+								<h3 class="choice__label">Activity</h3>
+								<select class="choice__form" name="form[]">
+									<option value="1" selected>All Activities</option>
+									<option value="2">Sailing</option>
+									<option value="3">Climbing</option>
+									<option value="4">Skiing</option>
+									<option value="5">Hiking</option>
+								</select>
+							</div>
+						</div>
+						<div class="choice__item">
+							<div class="choice__item-icon">
+								<img src="img/header/icon/calendar.svg" alt="Icon">
+							</div>
+							<div class="choice__item-inner">
+								<h3 class="choice__label choice__label--calendar">When</h3>
+								<input id="calendar" class="choice__input" autocomplete="off" type="text" readonly name="form[]" placeholder="Choose a Date">
+							</div>
+						</div>
+						<div class="choice__item">
+							<div class="choice__item-icon">
+								<img src="img/header/icon/guide.svg" alt="Icon">
+							</div>
+							<div class="choice__item-inner">
+								<h3 class="choice__label">Guests</h3>
+								<select class="choice__form" name="form[]">
+									<option value="1" selected>1 guest</option>
+									<option value="2">2 guest</option>
+								</select>
+							</div>
+						</div>
+						<div class="choice__item">
+							<button class="choice__button button" type="button">
+								<img src="img/header/icon/search.svg" alt="Icon">
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="location section">
+				<div class="location__container">
+					<div class="location__top section__top">
+						<div class="location__title section__title">Popular Destinations</div>
+					</div>
+					<div class="location__items section__items">
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/01.webp" type="image/webp"><img src="img/location/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">Big Sur</div>
+							<div class="location__item-text text">California, USA</div>
+						</a>
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/02.webp" type="image/webp"><img src="img/location/02.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">Prescott</div>
+							<div class="location__item-text text">Arizona, USA</div>
+						</a>
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/03.webp" type="image/webp"><img src="img/location/03.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">Fort Mayers</div>
+							<div class="location__item-text text">Florida, USA</div>
+						</a>
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/04.webp" type="image/webp"><img src="img/location/04.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">Tucson</div>
+							<div class="location__item-text text">Arizona, USA</div>
+						</a>
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/05.webp" type="image/webp"><img src="img/location/05.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">St. Joseph</div>
+							<div class="location__item-text text">Michigan, USA</div>
+						</a>
+						<a class="location__item section__item" href="#">
+							<div class="location__item-img section__item-img">
+								<picture><source srcset="img/location/06.webp" type="image/webp"><img src="img/location/06.jpg" alt="Image"></picture>
+							</div>
+							<div class="location__item-title section__item-title">Madrid</div>
+							<div class="location__item-text text">Madrid</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="hotels section">
+				<div class="hotels__container">
+					<div class="hotels__top section__top">
+						<div class="hotels__title section__title">Hotels and Restaurants</div>
+						<a class="hotels__btn section__btn" data-da=".hotels__container, 479.98" href="#">View all</a>
+					</div>
+					<div class="hotels__items section__items">
+						<a class="hotels__item section__item" href="#">
+							<div class="hotels__item-img section__item-img">
+								<div class="hotels__item-img section__item-img">
+									<picture><source srcset="img/hotels/01.webp" type="image/webp"><img src="img/hotels/01.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hotels__item-title section__item-title">Monastero Santa Rosa Hotel & Spa</div>
+							<div class="hotels__item-row">
+								<div class="hotels__item-text text">Salerno, Italy</div>
+								<div class="hotels__rating rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__value">5</div>
+								</div>
+							</div>
+						</a>
+						<a class="hotels__item section__item" href="#">
+							<div class="hotels__item-img section__item-img">
+								<div class="hotels__item-img section__item-img">
+									<picture><source srcset="img/hotels/02.webp" type="image/webp"><img src="img/hotels/02.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hotels__item-title section__item-title">Grand Hotel Tremezzo</div>
+							<div class="hotels__item-row">
+								<div class="hotels__item-text text">Lake Como, Italy</div>
+								<div class="hotels__rating rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__value">3</div>
+								</div>
+							</div>
+						</a>
+						<a class="hotels__item section__item" href="#">
+							<div class="hotels__item-img section__item-img">
+								<div class="hotels__item-img section__item-img">
+									<picture><source srcset="img/hotels/03.webp" type="image/webp"><img src="img/hotels/03.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hotels__item-title section__item-title">The Oberoi Udaivilas, Udaipur</div>
+							<div class="hotels__item-row">
+								<div class="hotels__item-text text">Udaipur, India</div>
+								<div class="hotels__rating rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__value">4</div>
+								</div>
+							</div>
+						</a>
+						<a class="hotels__item section__item" href="#">
+							<div class="hotels__item-img section__item-img">
+								<div class="hotels__item-img section__item-img">
+									<picture><source srcset="img/hotels/04.webp" type="image/webp"><img src="img/hotels/04.jpg" alt="Image"></picture>
+								</div>
+							</div>
+							<div class="hotels__item-title section__item-title">AKA Beverly Hills</div>
+							<div class="hotels__item-row">
+								<div class="hotels__item-text text">Los Angeles, United States</div>
+								<div class="hotels__rating rating rating_set">
+									<div class="rating__body">
+										<div class="rating__active"></div>
+										<div class="rating__items">
+											<input type="radio" class="rating__item" value="1" name="rating">
+											<input type="radio" class="rating__item" value="2" name="rating">
+											<input type="radio" class="rating__item" value="3" name="rating">
+											<input type="radio" class="rating__item" value="4" name="rating">
+											<input type="radio" class="rating__item" value="5" name="rating">
+										</div>
+									</div>
+									<div class="rating__value">3</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="travel section">
+				<div class="travel__container">
+					<div class="travel__top section__top">
+						<div class="travel__title section__title">Travel Tips and Advice</div>
+						<a class="travel__btn section__btn" data-da=".travel__container, 479.98" href="#">View all</a>
+					</div>
+					<div class="travel__items section__items">
+						<div class="travel__item section__item" href="#">
+							<div class="travel__item-img section__item-img">
+								<picture><source srcset="img/travel/01.webp" type="image/webp"><img src="img/travel/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="travel__item-col">
+								<div class="travel__item-title section__item-title">East Village Ice Cream Crawl</div>
+								<div class="travel__item-text">
+									<p>
+										We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each
+										ice cream store we'll explore the story behind the business and see what makes the ice cream unique
+										as you savor every…
+									</p>
+								</div>
+								<ul class="travel__item-list">
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--calendar" href="#">Today</a>
+									</li>
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--user" href="#">Maria Philips</a>
+									</li>
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--chat" href="#">2</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="travel__item section__item" href="#">
+							<div class="travel__item-img section__item-img">
+								<picture><source srcset="img/travel/02.webp" type="image/webp"><img src="img/travel/02.jpg" alt="Image"></picture>
+							</div>
+							<div class="travel__item-col">
+								<div class="travel__item-title section__item-title">Brooklyn Bridge cinematic photo walk</div>
+								<div class="travel__item-text">
+									<p>
+										This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to
+										capture clients at different locations upon request for an additional charge.
+									</p>
+								</div>
+								<ul class="travel__item-list">
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--calendar" href="#">Today</a>
+									</li>
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--user" href="#">James Calzoni</a>
+									</li>
+									<li class="travel__list-item">
+										<a class="travel__list-link travel__list-link--chat" href="#">17</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="activities section">
+				<div class="activities__container">
+					<div class="activities__top section__top">
+						<div class="activities__title section__title">Activities</div>
+						<a class="activities__btn section__btn" data-da=".activities__container, 479.98" href="#">View all</a>
+					</div>
+					<div class="activities__items section__items">
+						<a class="activities__item section__item" href="#">
+							<div class="activities__item-img section__item-img">
+								<picture><source srcset="img/activities/01.webp" type="image/webp"><img src="img/activities/01.jpg" alt="Image"></picture>
+							</div>
+							<div class="activities__item-title section__item-title">Sailing</div>
+						</a>
+						<a class="activities__item section__item" href="#">
+							<div class="activities__item-img section__item-img">
+								<picture><source srcset="img/activities/02.webp" type="image/webp"><img src="img/activities/02.jpg" alt="Image"></picture>
+							</div>
+							<div class="activities__item-title section__item-title">Climbing</div>
+						</a>
+						<a class="activities__item section__item" href="#">
+							<div class="activities__item-img section__item-img">
+								<picture><source srcset="img/activities/03.webp" type="image/webp"><img src="img/activities/03.jpg" alt="Image"></picture>
+							</div>
+							<div class="activities__item-title section__item-title">Skiing</div>
+						</a>
+						<a class="activities__item section__item" href="#">
+							<div class="activities__item-img section__item-img">
+								<picture><source srcset="img/activities/04.webp" type="image/webp"><img src="img/activities/04.jpg" alt="Image"></picture>
+							</div>
+							<div class="activities__item-title section__item-title">Hiking</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="about section">
+				<div class="about__container">
+					<div class="about__col">
+						<div class="about__title section__title">About Us</div>
+						<div class="about__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis
+								tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet
+								ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							</p>
+						</div>
+						<a class="about__btn section__btn" href="#">Read more</a>
+					</div>
+					<div class="about__img">
+						<picture><source srcset="img/about/01.webp" type="image/webp"><img src="img/about/01.jpg" alt="Image"></picture>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__item">
+						<a class="footer__logo" href="#"><img src="img/footer/footer-logo.svg" alt="Logo"></a>
+						<div class="footer__text text">
+							<p>
+								We always make our customers happy by providing as many choises as possible
+							</p>
+						</div>
+						<ul class="footer__socials">
+							<li class="footer__socials-item">
+								<a class="footer__socials-link" href="#">
+									<img src="img/footer/facebook.svg" alt="Icon">
+								</a>
+							</li>
+							<li class="footer__socials-item">
+								<a class="footer__socials-link" href="#">
+									<img src="img/footer/x.svg" alt="Icon">
+								</a>
+							</li>
+							<li class="footer__socials-item">
+								<a class="footer__socials-link" href="#">
+									<img src="img/footer/instagram.svg" alt="Icon">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu menu-footer text">
+						<div data-spollers="1100" data-one-spoller class="menu-footer__spollers">
+							<div class="menu-footer__block">
+								<button class="menu-footer__title footer-title" type="button" data-spoller>About</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">About us</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Features</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">News</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Menu</a>
+									</li>
+								</ul>
+							</div>
+							<div class="menu-footer__block">
+								<button class="menu-footer__title footer-title" type="button" data-spoller>Company</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Why 2rism</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Partner With Us</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">FAQ</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Blog</a>
+									</li>
+								</ul>
+							</div>
+							<div class="menu-footer__block">
+								<button class="menu-footer__title footer-title" type="button" data-spoller>Support</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Account</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Support Center</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Feedback</a>
+									</li>
+									<li class="menu-footer__item">
+										<a class="menu-footer__link" href="#">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__subscribe subscribe-footer">
+						<div class="subscribe-footer__title footer-title">Subscribe on our destination review newsletters</div>
+						<form class="subscribe-footer__form" action="#">
+							<div class="subscribe-footer__box">
+								<div class="subscribe-footer__text text">Your Email</div>
+								<input class="subscribe-footer__input" data-required="email" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="johndoe@gmail.com">
+							</div>
+							<button class="subscribe-footer__button" type="submit">
+								<img src="img/footer/arrow-left.svg" alt="Icon">
+							</button>
+						</form>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231014105904"></script>
+</body>
+
+</html>
